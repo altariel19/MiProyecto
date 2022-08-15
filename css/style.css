@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: ;
+
+}
+
+header{
+    background-color: #51d1f6;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h1{
+    color: black;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+
+header nav ul li{
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Cormorant SC', serif;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    margin: 0.3rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.9rem;
+}
+
+
+
+
+.active{
+    padding: 0.9rem;
+    margin: 0.9rem;
+}
+
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7rem;
+
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+main div p{
+    text-align: center;
+    color: black;
+    font-size: 0.9rem;
+    align-items: center;
+    font-family:'Cormorant SC', serif;
+    margin: 1.3rem;
+}
+
+section{
+    background-color: gray;
+    border-top: 1px solid black;
+    display:flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.horarios{
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    margin: 1.5rem 0rem;
+}
+
+.dias{
+    color: black;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+}
+
+
+footer{
+    background-color: gray;
+    color: aliceblue;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1rem;
+    color: blanchedalmond;
+}
+
+.mainproductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productosp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: #51d1f6;
+
+}
+/*productos*/
+
+.main__div{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "tipo-1" 
+    "img-1"
+    "img-2"
+    "tipo-2"
+    "img-3"
+    "img-4"
+    "img-5" 
+    "tipo-3"
+    "img-6" 
+    "tipo-4"
+    "img-7"
+    "img-8"
+    "img-9" 
+    "img-10"
+    "tipo-5"
+    "img-11" 
+    "img-12"
+    "tipo-6" 
+    "img-13"
+    "img-14"
+    ;
+}
+
+.tipo-1{
+    grid-area: tipo-1;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 3rem 6rem;
+    
+}
+.img-1{
+    grid-area: img-1;
+    height: 70%;
+
+}
+.img-2{
+    grid-area: img-2;
+    height: 70%;
+}
+.tipo-2{
+    grid-area: tipo-2;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 3rem 9rem;
+    
+}
+.img-3{
+    grid-area: img-3;
+    height: 55%;
+}
+.img-4{
+    grid-area: img-4;
+    height: 60%;
+}
+.img-5{
+    grid-area: img-5;
+    height: 55%;
+}
+.tipo-3{
+    grid-area: tipo-3;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 3rem 9rem;
+    
+}
+.img-6{
+    grid-area: img-6;
+    height: 45%;
+}
+.tipo-4{
+    grid-area: tipo-4;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 3rem 10rem;
+}
+.img-7{
+    grid-area: img-7;
+    height: 75%;
+}
+.img-8{
+    grid-area: img-8;
+    height: 45%;
+}
+.img-9{
+    grid-area: img-9;
+    height: 60%;
+}
+.img-10{
+    grid-area: img-10;
+    height: 60%;
+}
+.tipo-5{
+    grid-area: tipo-5;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 3rem 9rem;
+    
+}
+.img-11{
+    grid-area: img-11;
+    height: 45%;
+}
+.img-12{
+    grid-area: img-12;
+    height: 80%;
+}
+.tipo-6{
+    grid-area: tipo-6;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 3rem 10rem;
+    
+}
+.img-13{
+    grid-area: img-13;
+    height: 65%;
+}
+.img-14{
+    grid-area: img-14;
+    height: 80%;
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px){
+
+    header h1{
+        font-size: 2rem;
+    }
+
+    header nav ul li{
+        font-size: 0.9rem;
+    }
+
+    main div p{
+        font-size: 1rem;
+    }
+    /*Productos*/
+    .main__div{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "tipo-1 tipo1" 
+        "img-1 img-2"
+        "tipo-2 tipo-2"
+        "img-3 img-4"
+        "img-5 img-5"
+        "tipo-3 tipo-3"
+        "img-6 img-6"
+        "tipo-4 tipo-4"
+        "img-7 img-8"
+        "img-9 img-10"
+        "tipo-5 tipo-5"
+        "img-11 img-12"
+        "tipo-6 tipo-6"
+        "img-13 img-14"
+        ;
+    }
+    
+    .tipo-1{
+        grid-area: tipo-1;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    
+        
+    }
+    .img-1{
+        grid-area: img-1;
+        height: 55%;
+    }
+    .img-2{
+        grid-area: img-2;
+        height: 55%;
+    }
+    .tipo-2{
+        grid-area: tipo-2;
+    }
+    .img-3{
+        grid-area: img-3;
+        height: 45%;
+    }
+    .img-4{
+        grid-area: img-4;
+        height: 50%;
+    }
+    .img-5{
+        grid-area: img-5;
+        height: 100%;
+    }
+    .tipo-3{
+        grid-area: tipo-3;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-6{
+        grid-area: img-6;
+        height: 70%;
+    }
+    .tipo-4{
+        grid-area: tipo-4;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-7{
+        grid-area: img-7;
+        height: 50%;
+    }
+    .img-8{
+        grid-area: img-8;
+        height: 40%;
+    }
+    .img-9{
+        grid-area: img-9;
+        height: 50%;
+    }
+    .img-10{
+        grid-area: img-10;
+        height: 45%;
+    }
+    .tipo-5{
+        grid-area: tipo-5;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-11{
+        grid-area: img-11;
+        height: 45%;
+    }
+    .img-12{
+        grid-area: img-12;
+        height: 50%;
+    }
+    .tipo-6{
+        grid-area: tipo-6;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-13{
+        grid-area: img-13;
+        height: 65%;
+    }
+    .img-14{
+        grid-area: img-14;
+        height: 80%;
+        
+    }
+    
+    
+    
+
+    
+}   
+
+
+@media screen and (min-width:1080px){
+
+    header{
+        display:flex;
+        justify-content: space-around;
+        align-items: stretch;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+
+    .menu{
+        margin-top: 2rem;
+    }
+
+    header nav ul li{
+        font-size: 1.1rem;
+    }
+
+    main div p{
+        font-size: 1.3rem;
+    }
+
+    .presentacion{
+        display: flex;
+        justify-content: center;
+    }
+    .main__div{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "tipo-1 tipo1" 
+        "img-1 img-2"
+        "tipo-2 tipo-2"
+        "img-3 img-4"
+        "img-5 img-5"
+        "tipo-3 tipo-3"
+        "img-6 img-6"
+        "tipo-4 tipo-4"
+        "img-7 img-8"
+        "img-9 img-10"
+        "tipo-5 tipo-5"
+        "img-11 img-12"
+        "tipo-6 tipo-6"
+        "img-13 img-14"
+        ;
+    }
+    
+    .tipo-1{
+        grid-area: tipo-1;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+        
+    }
+    .img-1{
+        grid-area: img-1;
+        height: 90%;
+    }
+    .img-2{
+        grid-area: img-2;
+        height: 90%;
+    }
+    .tipo-2{
+        grid-area: tipo-2;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-3{
+        grid-area: img-3;
+        height: 75%;
+    }
+    .img-4{
+        grid-area: img-4;
+        height: 85%;
+    }
+    .img-5{
+        grid-area: img-5;
+    }
+    .tipo-3{
+        grid-area: tipo-3;
+        margin: 2rem;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-6{
+        grid-area: img-6;
+        height: 70%;
+    }
+    .tipo-4{
+        grid-area: tipo-4;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-7{
+        grid-area: img-7;
+    }
+    .img-8{
+        grid-area: img-8;
+        height: 70%;
+    }
+    .img-9{
+        grid-area: img-9;
+        height: 80%;
+    }
+    .img-10{
+        grid-area: img-10;
+        height: 75%;
+    }
+    .tipo-5{
+        grid-area: tipo-5;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-11{
+        grid-area: img-11;
+        height: 70%;
+    }
+    .img-12{
+        grid-area: img-12;
+    }
+    .tipo-6{
+        grid-area: tipo-6;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin: 3rem 10rem;
+    }
+    .img-13{
+        grid-area: img-13;
+        height: 95%;
+    }
+    .img-14{
+        grid-area: img-14;
+        
+    }
+    
+}
