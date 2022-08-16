@@ -69,8 +69,12 @@ header nav ul li a{
     flex-direction: column;
     align-items: center;
     margin-bottom: 7rem;
-
+   
 }
+
+
+
+
 
 h2{
     font-size: 1.5rem;
@@ -83,7 +87,9 @@ main div p{
     align-items: center;
     font-family:'Cormorant SC', serif;
     margin: 1.3rem;
+    transition: 2s;
 }
+
 
 section{
     background-color: gray;
@@ -136,7 +142,25 @@ footer p{
     color: #51d1f6;
 
 }
-/*productos*/
+
+header nav ul li a:hover,.active{
+    background-color: rgb(0, 0, 0, .3);
+}
+
+/*animaciones*/ 
+
+main div p:hover{
+    font-size: 1.2rem;
+    color:blue;
+    ;
+
+}
+
+footer{
+    background-image:linear-gradient(gray,black);
+}
+
+/*Page productos*/
 
 .main__div{
     display:grid;
@@ -176,11 +200,25 @@ footer p{
 .img-1{
     grid-area: img-1;
     height: 70%;
+    transition: 2s;
 
 }
+
+.img-1:hover{
+    height: 72%;
+    transform: rotate(20deg);
+
+}
+
 .img-2{
     grid-area: img-2;
     height: 70%;
+    transition: 2s;
+}
+.img-2:hover{
+    height: 72%;
+    transform: rotate(-20deg);
+
 }
 .tipo-2{
     grid-area: tipo-2;
@@ -192,14 +230,30 @@ footer p{
 .img-3{
     grid-area: img-3;
     height: 55%;
+    transition: 2s;
+}
+.img-3:hover{
+    height: 59%;
+    transform: rotate(20deg);
+
 }
 .img-4{
     grid-area: img-4;
     height: 60%;
+    transition: 2s;
+}
+.img-4:hover{
+    height: 63%;
+    transform: rotate(-20deg);
 }
 .img-5{
     grid-area: img-5;
     height: 55%;
+    transition: 2s;
+}
+.img-5:hover{
+    height: 58%;
+    transform: rotate(20deg);
 }
 .tipo-3{
     grid-area: tipo-3;
@@ -211,6 +265,11 @@ footer p{
 .img-6{
     grid-area: img-6;
     height: 45%;
+    transition: 2s;
+}
+.img-6:hover{
+    height: 59%;
+    transform: rotate(-20deg);
 }
 .tipo-4{
     grid-area: tipo-4;
@@ -221,18 +280,38 @@ footer p{
 .img-7{
     grid-area: img-7;
     height: 75%;
+    transition: 2s;
+}
+.img-7:hover{
+    height: 78%;
+    transform: rotate(20deg);
 }
 .img-8{
     grid-area: img-8;
     height: 45%;
+    transition: 2s;
+}
+.img-8:hover{
+    height: 49%;
+    transform: rotate(20deg);
 }
 .img-9{
     grid-area: img-9;
     height: 60%;
+    transition: 2s;
+}
+.img-9:hover{
+    height: 64%;
+    transform: rotate(20deg);
 }
 .img-10{
     grid-area: img-10;
     height: 60%;
+    transition: 2s;
+}
+.img-10:hover{
+    height: 64%;
+    transform: rotate(20deg);
 }
 .tipo-5{
     grid-area: tipo-5;
@@ -244,10 +323,20 @@ footer p{
 .img-11{
     grid-area: img-11;
     height: 45%;
+    transition: 2s;
+}
+.img-11:hover{
+    height: 49%;
+    transform: rotate(20deg);
 }
 .img-12{
     grid-area: img-12;
     height: 80%;
+    transition: 2s;
+}
+.img-12:hover{
+    height: 84%;
+    transform: rotate(20deg);
 }
 .tipo-6{
     grid-area: tipo-6;
@@ -256,20 +345,26 @@ footer p{
     margin: 3rem 10rem;
     
 }
+
 .img-13{
     grid-area: img-13;
     height: 65%;
+    transition: 2s;
+}
+.img-13:hover{
+    height: 69%;
+    transform: rotate(20deg);
 }
 .img-14{
     grid-area: img-14;
     height: 80%;
+    transition: 2s;
     
 }
-
-
-
-
-
+.img-14:hover{
+    height: 84%;
+    transform: rotate(20deg);
+}
 
 
 
@@ -286,7 +381,16 @@ footer p{
     main div p{
         font-size: 1rem;
     }
+    
+    /*animacion*/
+    main div p:hover{
+        font-size: 1.5rem;
+        color:blue;
+    }
+
+    
     /*Productos*/
+
     .main__div{
         display:grid;
         grid-template-columns: auto;
@@ -439,6 +543,28 @@ footer p{
         display: flex;
         justify-content: center;
     }
+    
+    main div p:hover{
+        font-size: 1.2rem;
+        color:blue;
+    ;
+
+    }
+
+    /*animacion*/
+    
+    main div p:hover{
+        font-size: 1.8rem;
+        color:blue;
+    ;
+
+}
+
+
+    
+
+    /*Productos*/
+
     .main__div{
         display:grid;
         grid-template-columns: auto;
